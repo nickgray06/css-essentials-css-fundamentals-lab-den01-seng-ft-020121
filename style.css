@@ -7,8 +7,9 @@ figcaption {font-size: 15px}
   text-align: center;
   margin: auto;
 }
-div#details{
+#details{
   float: left;
-  text-align: center;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
