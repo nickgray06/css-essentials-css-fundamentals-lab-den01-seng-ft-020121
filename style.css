@@ -1,5 +1,19 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+
+h1, h2, nav, figure {text-align: center;}
+nav {padding: 10px;}
+figcaption {font-size: 15px}
+#featured_property {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#details{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 25%;
 }
